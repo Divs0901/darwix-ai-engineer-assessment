@@ -107,18 +107,32 @@ class MarketKnowledgeBase:
         }
 
 
-TOOLS = [{
-    "type": "function",
-    "function": {
-        "name": "search_knowledge_base",
-        "description": "Search the localized knowledge base for a grounded answer. Always use this instead of answering from your own knowledge.",
-        "parameters": {
-            "type": "object",
-            "properties": {"query": {"type": "string", "description": "The customer's question, in English (for retrieval matching)"}},
-            "required": ["query"],
+TOOLS = [
+    {
+        "type": "function",
+        "function": {
+            "name": "search_knowledge_base",
+            "description": "Search the localized knowledge base for a grounded answer. Always use this instead of answering from your own knowledge.",
+            "parameters": {
+                "type": "object",
+                "properties": {"query": {"type": "string", "description": "The customer's question, in English (for retrieval matching)"}},
+                "required": ["query"],
+            },
         },
     },
-}]
+    {
+        "type": "function",
+        "function": {
+            "name": "escalate_to_human",
+            "description": "Call this if the customer explicitly asks for a human agent, or the request is out of scope for this call.",
+            "parameters": {
+                "type": "object",
+                "properties": {"reason": {"type": "string"}},
+                "required": ["reason"],
+            },
+        },
+    },
+]
 
 
 class MultilingualAgent:
@@ -161,11 +175,14 @@ class MultilingualAgent:
             })
             for tool_call in message.tool_calls:
                 args = json.loads(tool_call.function.arguments)
-                result = self.kb.retrieve(args["query"])
-                print(f"  [TOOL CALLED: search_knowledge_base]  query={args['query']}  similarity={result.get('similarity')}")
-                content = f"[Source: {result['source']}] {result['content']}" if result["grounded"] else result["fallback_message"]
+                if tool_call.function.name == "escalate_to_human":
+                    print(f"  [TOOL CALLED: escalate_to_human]  reason={args.get('reason')}")
+                    content = "Escalated to a human agent. Inform the customer someone will follow up within one business day, in their language."
+                else:
+                    result = self.kb.retrieve(args["query"])
+                    print(f"  [TOOL CALLED: search_knowledge_base]  query={args['query']}  similarity={result.get('similarity')}")
+                    content = f"[Source: {result['source']}] {result['content']}" if result["grounded"] else result["fallback_message"]
                 self.messages.append({"role": "tool", "tool_call_id": tool_call.id, "content": content})
-
             followup = self._call_with_retry()
             reply = followup.content if followup else "Let me have someone follow up on that."
             self.messages.append({"role": "assistant", "content": reply})
@@ -187,7 +204,8 @@ if __name__ == "__main__":
     while True:
         user_input = input("You: ").strip()
         if any(w in user_input.lower() for w in ("bye", "goodbye")):
-            print("\nAgent: Salamat po! / Terima kasih!")
+            goodbye = "Salamat po!" if market == "ph" else "Terima kasih!"
+            print(f"\nAgent: {goodbye}")
             break
         reply = agent.chat_turn(user_input)
         print(f"\nAgent: {reply}\n")
