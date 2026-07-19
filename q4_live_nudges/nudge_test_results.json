@@ -1,0 +1,74 @@
+{
+  "latency": {
+    "p50_ms": 209.2,
+    "p95_ms": 414.2,
+    "count": 7,
+    "nudges_fired": 4
+  },
+  "nudges": [
+    {
+      "turn": 2,
+      "signal": "missed_cross_sell",
+      "text": "Customer mentioned another financial product \u2014 consider a relevant cross-sell offer."
+    },
+    {
+      "turn": 3,
+      "signal": "compliance_gap",
+      "text": "Confirm identity verification is complete before disclosing any account details."
+    },
+    {
+      "turn": 4,
+      "signal": "rising_frustration",
+      "text": "Acknowledge the customer's frustration before continuing with the script."
+    },
+    {
+      "turn": 7,
+      "signal": "rising_frustration",
+      "text": "Acknowledge the customer's frustration before continuing with the script."
+    }
+  ],
+  "all_turns": [
+    {
+      "turn": 1,
+      "signal_extraction_ms": 317.1,
+      "nudge_logic_ms": 0.0,
+      "total_ms": 317.1
+    },
+    {
+      "turn": 2,
+      "signal_extraction_ms": 227.8,
+      "nudge_logic_ms": 0.0,
+      "total_ms": 227.9
+    },
+    {
+      "turn": 3,
+      "signal_extraction_ms": 205.1,
+      "nudge_logic_ms": 0.0,
+      "total_ms": 205.1
+    },
+    {
+      "turn": 4,
+      "signal_extraction_ms": 209.2,
+      "nudge_logic_ms": 0.0,
+      "total_ms": 209.2
+    },
+    {
+      "turn": 5,
+      "signal_extraction_ms": 194.9,
+      "nudge_logic_ms": 0.1,
+      "total_ms": 195.0
+    },
+    {
+      "turn": 6,
+      "signal_extraction_ms": 414.2,
+      "nudge_logic_ms": 0.0,
+      "total_ms": 414.2
+    },
+    {
+      "turn": 7,
+      "signal_extraction_ms": 208.2,
+      "nudge_logic_ms": 0.0,
+      "total_ms": 208.2
+    }
+  ]
+}

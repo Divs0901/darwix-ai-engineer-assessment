@@ -1,0 +1,329 @@
+[
+  {
+    "record_id": "kb_loan_001",
+    "title": "Late Payment Penalty",
+    "content": "If a customer asks what happens when they miss their payment date, or asks about a late payment penalty \u2014 Missing an EMI typically triggers a late payment fee, often a flat charge in the range of roughly \u20b9500 to \u20b91,200 plus applicable taxes, along with penal interest that accrues until the overdue amount is cleared in full. Most lenders do not offer a formal grace period, so charges and negative credit reporting can begin as soon as the due date passes. Note: RBI guidance issued in 2025 has directed lenders to move away from penal interest on overdue EMIs industry-wide, so the exact penalty structure depends on when a specific lender updated its policy \u2014 confirm current terms against the customer's loan agreement.",
+    "category": "payment_policy",
+    "source": "website_extract: kissht.com/blog/what-happens-if-you-miss-emi; dmifinance.in/personal-loan/miss-emi-on-a-personal-loan; enterslice.com (RBI 2025 EMI rules)",
+    "version": "1.0",
+    "pii": false,
+    "last_verified_date": "2026-07-18"
+  },
+  {
+    "record_id": "kb_loan_002",
+    "title": "EMI Bounce / Failed Payment Charges",
+    "content": "An EMI can 'bounce' if there are insufficient funds or a technical failure at the time of auto-debit, triggering a bounce charge separate from a standard late payment penalty. A single bounce, if corrected quickly, usually has limited credit impact, but three or more consecutive bounces are generally treated as a serious default that can trigger recovery action. Some lenders may waive a bounce charge for a genuine first-time technical error, entirely at their discretion.",
+    "category": "payment_policy",
+    "source": "website_extract: credithelpindia.com/blog/emi-bounce-charges-and-how-to-prevent-them",
+    "version": "1.0",
+    "pii": false,
+    "last_verified_date": "2026-07-18"
+  },
+  {
+    "record_id": "kb_loan_003",
+    "title": "Payment Deferment / Moratorium Policy",
+    "content": "Customers facing genuine financial hardship (job loss, medical emergency, business disruption) may request a payment deferment, typically covering one to six EMIs depending on lender policy and case-by-case review. Interest continues to accrue on the outstanding principal during the deferment period, so the repayment tenure or future EMI amount is adjusted upward afterward \u2014 deferment postpones payment, it does not waive it. Approval is not automatic and requires submitting proof of hardship (income disruption documentation or a self-declaration) through the lender's customer service channel.",
+    "category": "payment_policy",
+    "source": "website_extract: cashe.co.in/policies/moratorium; tatacapital.com/blog/personal-use-loan/what-is-moratorium-period; sbfc.com moratorium policy PDF",
+    "version": "1.0",
+    "pii": false,
+    "last_verified_date": "2026-07-18"
+  },
+  {
+    "record_id": "kb_loan_004",
+    "title": "Changing EMI Due Date",
+    "content": "If a customer is confused or surprised about why the payment is due now, or thought they had more time before this due date \u2014 Customers may request a change to their EMI due date, commonly to align it with salary credit timing. This is subject to lender policy and is generally only processed after any pending dues are cleared. A mandate re-registration fee may apply depending on the lender.",
+    "category": "payment_policy",
+    "source": "website_extract: idfcfirst.bank.in/finfirst-blogs/personal-loan/everything-you-must-know-if-you-missed-your-emi-payment",
+    "version": "1.0",
+    "pii": false,
+    "last_verified_date": "2026-07-18"
+  },
+  {
+    "record_id": "kb_loan_005",
+    "title": "Proactive Hardship Support",
+    "content": "Lenders generally encourage customers to reach out before a payment is missed if they anticipate financial trouble, since early contact improves the chance of being offered a one-time extension, a temporarily reduced EMI, or a short payment pause. Waiting until after a payment is missed narrows the options available.",
+    "category": "objection_handling",
+    "source": "website_extract: poonawallafincorp.com/blogs/personal-loan/what-happens-if-you-miss-to-pay-personal-loan-emi",
+    "version": "1.0",
+    "pii": false,
+    "last_verified_date": "2026-07-18"
+  },
+  {
+    "record_id": "kb_loan_006",
+    "title": "Late Fee Waiver / Negotiation",
+    "content": "A late fee may be waived at the lender's discretion for customers with a good repayment history who have a legitimate hardship reason, such as a medical emergency. Waiver is not guaranteed and is evaluated case by case, not promised on the call.",
+    "category": "objection_handling",
+    "source": "website_extract: dmifinance.in/personal-loan/miss-emi-on-a-personal-loan",
+    "version": "1.0",
+    "pii": false,
+    "last_verified_date": "2026-07-18"
+  },
+  {
+    "record_id": "kb_loan_007",
+    "title": "Credit Score Impact of Missed Payment",
+    "content": "A missed EMI is typically reported to credit bureaus once the delay crosses a lender-defined threshold, commonly around 30 days, and can lower a credit score by roughly 50 to 100 points depending on repayment history. The resulting 'days past due' flag can remain on a credit report for several years even after the account is brought current, though its negative weight decreases over time as repayment becomes regular again.",
+    "category": "product_faq",
+    "source": "website_extract: kissht.com/blog/what-happens-if-you-miss-emi; dmifinance.in/personal-loan/miss-emi-on-a-personal-loan",
+    "version": "1.0",
+    "pii": false,
+    "last_verified_date": "2026-07-18"
+  },
+  {
+    "record_id": "kb_loan_008",
+    "title": "Accepted Payment Methods",
+    "content": "Payments can be made via UPI, net banking, debit card, or the registered auto-debit e-mandate on the customer's bank account. Cash payments are not accepted over a call; customers wishing to pay in cash should be directed to the nearest branch.",
+    "category": "product_faq",
+    "source": "constructed",
+    "version": "1.0",
+    "pii": false,
+    "last_verified_date": "2026-07-18"
+  },
+  {
+    "record_id": "kb_loan_009",
+    "title": "Job Loss / Income Disruption Call Handling",
+    "content": "If a customer reports job loss or income disruption during a pre-due reminder call, the agent should offer to log a hardship request rather than promise approval. Supporting documents (termination letter or a self-declaration) will be required for the deferment team to review within 3 business days.",
+    "category": "objection_handling",
+    "source": "constructed",
+    "version": "1.0",
+    "pii": false,
+    "last_verified_date": "2026-07-18"
+  },
+  {
+    "record_id": "kb_loan_010",
+    "title": "Travel / Temporary Unavailability Policy",
+    "content": "If a customer is traveling or temporarily unavailable on the due date, standing instructions (auto-debit or e-mandate) still process automatically. The reminder call is a notice only and does not require the customer to be physically present to make the payment.",
+    "category": "objection_handling",
+    "source": "constructed",
+    "version": "1.0",
+    "pii": false,
+    "last_verified_date": "2026-07-18"
+  },
+  {
+    "record_id": "kb_loan_011",
+    "title": "Partial Payment / Installment Split Option",
+    "content": "Lenders may allow a partial payment toward the due EMI in specific hardship cases, with the remaining balance added to the next cycle. This is not a standard offering and requires manual approval, so the agent should log the request for review rather than promise approval on the call.",
+    "category": "objection_handling",
+    "source": "constructed",
+    "version": "1.0",
+    "pii": false,
+    "last_verified_date": "2026-07-18"
+  },
+  {
+    "record_id": "kb_loan_012",
+    "title": "Customer Identity Verification Process",
+    "content": "If a customer asks how to confirm this call is really about their loan, or wants to verify the call's legitimacy before discussing details \u2014 Before discussing loan details, the agent must verify the customer's identity using at least two of the following: registered mobile number, date of birth, or the last four digits of the loan account number. If verification fails, the agent must not disclose any account-specific information.",
+    "category": "qualification_verification",
+    "source": "constructed",
+    "version": "1.0",
+    "pii": false,
+    "last_verified_date": "2026-07-18"
+  },
+  {
+    "record_id": "kb_loan_013",
+    "title": "Loan Balance Disclosure Policy",
+    "content": "The exact outstanding balance and next due amount may only be disclosed after successful identity verification. If verification is incomplete, the agent should state that balance details cannot be shared on this call and offer to send a statement via SMS or email once verification is complete.",
+    "category": "qualification_verification",
+    "source": "constructed",
+    "version": "1.0",
+    "pii": false,
+    "last_verified_date": "2026-07-18"
+  },
+  {
+    "record_id": "kb_loan_014",
+    "title": "Third-Party Payment Authorization",
+    "content": "A person other than the registered borrower may make a payment on the borrower's behalf using the loan account number through standard payment channels, but is not entitled to receive account details or discuss loan terms unless listed in the lender's records as an authorized nominee or co-applicant.",
+    "category": "qualification_verification",
+    "source": "constructed",
+    "version": "1.0",
+    "pii": false,
+    "last_verified_date": "2026-07-18"
+  },
+  {
+    "record_id": "kb_loan_015",
+    "title": "Human Agent Escalation Policy",
+    "content": "If a customer explicitly requests a human agent, or the query falls outside the bot's scope, the call should be escalated: log an ESCALATED event with the call context and reason, and inform the customer a human representative will follow up within one business day.",
+    "category": "escalation_scope",
+    "source": "constructed",
+    "version": "1.0",
+    "pii": false,
+    "last_verified_date": "2026-07-18"
+  },
+  {
+    "record_id": "kb_loan_016",
+    "title": "Multiple Account / Cross-Product Inquiries (Out of Scope)",
+    "content": "If a customer asks for help with a different loan, my other account, or another product entirely, separate from this specific loan \u2014 This call and knowledge base cover only the specific loan referenced in the pre-due reminder. Questions about other accounts, products, or loans held by the customer are out of scope for this call and should be escalated to general customer support.",
+    "category": "escalation_scope",
+    "source": "constructed",
+    "version": "1.0",
+    "pii": false,
+    "last_verified_date": "2026-07-18"
+  },
+  {
+    "record_id": "kb_loan_017",
+    "title": "Complaint Filing Process",
+    "content": "A formal complaint about a call or service experience should be logged with a summary and escalated to the grievance redressal team. The agent should confirm a complaint reference will be shared and that a response is expected within the lender's standard grievance timeline, commonly 7 to 10 business days.",
+    "category": "escalation_scope",
+    "source": "constructed",
+    "version": "1.0",
+    "pii": false,
+    "last_verified_date": "2026-07-18"
+  },
+  {
+    "record_id": "kb_loan_018",
+    "title": "Support Business Hours",
+    "content": "General customer support is available Monday to Saturday, 9 AM to 7 PM IST, excluding public holidays. This automated voice reminder line operates outside those hours strictly for reminders and payment queries, not general support.",
+    "category": "support_info",
+    "source": "constructed",
+    "version": "1.0",
+    "pii": false,
+    "last_verified_date": "2026-07-18"
+  },
+  {
+    "record_id": "kb_loan_019",
+    "title": "Callback Scheduling Policy",
+    "content": "When a customer indicates they cannot resolve the payment matter on the current call \u2014 due to lack of funds, needing to check details, or requesting more time \u2014 the agent should offer to schedule a callback and log a CALLBACK_SCHEDULED event with the requested date, reason, and call context for follow-up by the collections team.",
+    "category": "business_action",
+    "source": "constructed",
+    "version": "1.0",
+    "pii": false,
+    "last_verified_date": "2026-07-18"
+  },
+  {
+    "record_id": "kb_loan_020",
+    "title": "Payment Holiday (raw, pre-standardization)",
+    "content": "Customers can request a payment holiday if they are going through financial difficulty. This pauses EMI payments for a few months, though interest keeps building up during that time and gets added to the loan later.",
+    "category": "cleaning_example",
+    "source": "constructed (deliberate near-duplicate of kb_loan_003)",
+    "version": "0.1-raw",
+    "pii": false,
+    "status": "excluded_flagged",
+    "cleaning_note": "Identified during deduplication as a near-duplicate of kb_loan_003 (Payment Deferment / Moratorium Policy) \u2014 same underlying policy, inconsistent raw terminology ('payment holiday' vs. standardized 'deferment'). Retained only as documented evidence of the raw pre-standardization duplicate found during collection; excluded from the live retrieval index to avoid split-confidence retrieval.",
+    "last_verified_date": "2026-07-18"
+  },
+  {
+    "record_id": "kb_loan_021",
+    "title": "Interest Rate Slab Table (extraction failure)",
+    "content": "Slab1 8.5% | Slab2 -- | amount_threshold \u20b950000 [PARSE ERROR: table structure not recognized, columns misaligned during PDF extraction] tenure 12/24/36 rate ??",
+    "category": "extraction_error",
+    "source": "constructed (simulated malformed PDF table extraction)",
+    "version": "0.1-raw",
+    "pii": false,
+    "status": "excluded_flagged",
+    "cleaning_note": "Flagged during extraction as a parsing failure \u2014 table columns misaligned, rate values unrecoverable. Documented and excluded from the live retrieval index rather than silently dropped, per the assessment's requirement to handle and flag extraction failures.",
+    "last_verified_date": "2026-07-18"
+  },
+  {
+    "record_id": "kb_loan_022",
+    "title": "Wrong-Person-Answered Protocol",
+    "content": "If the person who answers the call does not confirm they are the registered borrower, the agent must not state that a loan exists for this number, must not mention any loan amount, due date, or account details, and must not ask verification questions that would reveal the number belongs to a loan customer. The agent should ask to speak with the registered borrower, and if unavailable, end the call without disclosing any information \u2014 a generic callback request may be logged without loan specifics.",
+    "category": "qualification_verification",
+    "source": "constructed",
+    "version": "1.0",
+    "pii": false,
+    "last_verified_date": "2026-07-18"
+  },
+  {
+    "record_id": "kb_loan_023",
+    "title": "Partial Verification Handling",
+    "content": "If a customer correctly provides one identity factor but fails or hesitates on a second, the agent must not proceed to disclose balance or due-date details. The agent should offer an alternative verification factor (e.g., date of birth if mobile number could not be confirmed) rather than immediately escalating or refusing. If a second attempt also fails, treat this as a failed verification and do not disclose account information.",
+    "category": "qualification_verification",
+    "source": "constructed",
+    "version": "1.0",
+    "pii": false,
+    "last_verified_date": "2026-07-18"
+  },
+  {
+    "record_id": "kb_loan_024",
+    "title": "Refused-to-Verify Handling",
+    "content": "If a customer declines to verify their identity, citing distrust of the caller, the agent should not pressure them. Instead, offer the lender's official customer support number so the customer can call back through a verified channel, or offer to send a general non-account-specific SMS with instructions. No account details may be disclosed regardless of the reason for refusal.",
+    "category": "qualification_verification",
+    "source": "constructed",
+    "version": "1.0",
+    "pii": false,
+    "last_verified_date": "2026-07-18"
+  },
+  {
+    "record_id": "kb_loan_025",
+    "title": "\"Already Paid\" Dispute Handling",
+    "content": "If a customer insists they have already completed this exact payment and asks why you are still calling about it \u2014 If a customer states they have already made the payment, the agent must not confirm or deny system status on the call, since payment processing can take 1-2 business days to reflect. Acknowledge the claim, note it for the collections team to verify against the payment gateway, and inform the customer no further action is needed if the payment reflects within 2 business days, otherwise they will be contacted again.",
+    "category": "objection_handling",
+    "source": "constructed",
+    "version": "1.0",
+    "pii": false,
+    "last_verified_date": "2026-07-18"
+  },
+  {
+    "record_id": "kb_loan_026",
+    "title": "Data Privacy / \"How Did You Get My Number\" Objection",
+    "content": "If a customer asks how their number was obtained or raises a privacy concern, the agent should explain the number is the one registered on their loan account at the time of application, used only for account-related communication, and that the customer can request a change of registered contact details through official channels. The agent must not speculate about data sources beyond the registered account record.",
+    "category": "objection_handling",
+    "source": "constructed",
+    "version": "1.0",
+    "pii": false,
+    "last_verified_date": "2026-07-18"
+  },
+  {
+    "record_id": "kb_loan_027",
+    "title": "Interest Rate & Fee Disclosure (Key Fact Statement)",
+    "content": "Per RBI Key Fact Statement norms, the customer is entitled to a clear breakdown of the annualized percentage rate, processing fee, and any other applicable charges on request. The agent should offer to share this breakdown via SMS or email rather than reciting full figures verbally, to avoid transcription errors on a call.",
+    "category": "product",
+    "source": "constructed",
+    "version": "1.0",
+    "pii": false,
+    "last_verified_date": "2026-07-18"
+  },
+  {
+    "record_id": "kb_loan_028",
+    "title": "Personal Loan Product Overview",
+    "content": "The personal loan product referenced in this reminder is a fixed-tenure EMI loan, with repayment tenures typically ranging from 12 to 60 months depending on the sanctioned amount. All charges, including processing fee and applicable rate, are disclosed upfront in the Key Fact Statement provided at loan sanction.",
+    "category": "product",
+    "source": "constructed (styled to match product/marketing content input type)",
+    "version": "1.0",
+    "pii": false,
+    "last_verified_date": "2026-07-18"
+  },
+  {
+    "record_id": "kb_loan_029",
+    "title": "Loan Application Form Field Reference",
+    "content": "Standardized field mapping used when processing loan application and servicing forms: 'Applicant Name' maps to customer_name; 'Loan A/C No.' maps to account_id; 'EMI Due Date' maps to payment_due_date; 'Sanctioned Amount' maps to loan_amount. This mapping is applied during data cleaning to standardize inconsistent field labels found across different source forms into one consistent schema.",
+    "category": "form_reference",
+    "source": "constructed",
+    "version": "1.0",
+    "pii": false,
+    "last_verified_date": "2026-07-18"
+  },
+  {
+    "record_id": "kb_loan_030",
+    "title": "Customer Testimonial (raw, pre-redaction)",
+    "content": "Customer testimonial: Ramesh Gupta (contact: 9876543210, Loan A/C: LN44219087) shared that the collections team helped him set up a payment plan during a difficult month.",
+    "category": "pii_example",
+    "source": "constructed (simulated raw marketing testimonial containing PII)",
+    "version": "0.1-raw",
+    "pii": true,
+    "status": "excluded_flagged",
+    "cleaning_note": "Raw source content contained direct PII (customer name, phone number, account number) embedded in a marketing-style testimonial. Flagged during the PII identification step and excluded from the live retrieval index. Cleaned/redacted version stored separately as kb_loan_031, demonstrating the protection step actually functions rather than being an unproven assertion.",
+    "last_verified_date": "2026-07-18"
+  },
+  {
+    "record_id": "kb_loan_031",
+    "title": "Customer Testimonial (redacted)",
+    "content": "A customer testimonial describes receiving support from the collections team in setting up a payment plan during a period of financial difficulty. [Customer name, phone number, and account number removed per PII protection policy prior to inclusion in the knowledge base.]",
+    "category": "product",
+    "source": "constructed (redacted from kb_loan_030)",
+    "version": "1.0",
+    "pii": false,
+    "last_verified_date": "2026-07-18"
+  },
+  {
+    "record_id": "kb_loan_032",
+    "title": "Loan Ownership Dispute / Fraud Claim",
+    "content": "If a customer states they never took this loan or suspects it was opened fraudulently in their name, the agent must immediately stop collections-related conversation \u2014 do not continue requesting payment, do not discuss due dates or amounts further. Log a FRAUD_DISPUTE event with full call context and escalate to the fraud/grievance team, informing the customer their account will be flagged for investigation and collections activity paused pending review.",
+    "category": "qualification_verification",
+    "source": "constructed",
+    "version": "1.0",
+    "pii": false,
+    "last_verified_date": "2026-07-18",
+    "note": "Safety-critical \u2014 enforced as a deterministic code gate (Section 2 exception), same class as wrong-person-answered. This record is reference content only; the actual stop-and-escalate behavior is not retrieval-dependent."
+  }
+]

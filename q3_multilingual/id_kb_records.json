@@ -1,0 +1,102 @@
+[
+  {
+    "record_id": "kb_id_001",
+    "title": "Installment Reminder Standard Greeting",
+    "content": "Selamat pagi/siang Bapak/Ibu. Kami menghubungi terkait cicilan Anda yang akan jatuh tempo. Mohon konfirmasi apakah pembayaran sudah dapat dilakukan sebelum tanggal jatuh tempo, agar tidak dikenakan denda keterlambatan.",
+    "category": "policy",
+    "source": "website_extract: halobdg.com (contoh SMS penagihan pinjaman online yang sopan)",
+    "version": "1.0",
+    "pii": false,
+    "last_verified_date": "2026-07-18"
+  },
+  {
+    "record_id": "kb_id_002",
+    "title": "Late Payment Penalty (Denda)",
+    "content": "Jika pembayaran cicilan terlambat dari tanggal jatuh tempo, akan dikenakan denda keterlambatan sesuai dengan perjanjian pembiayaan. Denda dihitung per hari keterlambatan. Kami sarankan untuk melakukan pembayaran tepat waktu agar terhindar dari biaya tambahan.",
+    "category": "payment_policy",
+    "source": "constructed (based on standard multifinance denda structure)",
+    "version": "1.0",
+    "pii": false,
+    "last_verified_date": "2026-07-18"
+  },
+  {
+    "record_id": "kb_id_003",
+    "title": "Restructuring Option (Restrukturisasi)",
+    "content": "Apabila Bapak/Ibu mengalami kesulitan keuangan, kami dapat menawarkan opsi restrukturisasi pinjaman — misalnya perpanjangan tenor atau penyesuaian jumlah angsuran bulanan, agar beban pembayaran menjadi lebih ringan. Proses ini memerlukan pengajuan dan review dari tim kami.",
+    "category": "objection_handling",
+    "source": "website_extract: halobdg.com (restrukturisasi pinjaman sebagai win-win solution dalam SMS penagihan)",
+    "version": "1.0",
+    "pii": false,
+    "last_verified_date": "2026-07-18"
+  },
+  {
+    "record_id": "kb_id_004",
+    "title": "Collections Contact Compliance (OJK/AFPI Rules)",
+    "content": "Sesuai dengan aturan OJK dan AFPI, petugas penagihan wajib menyampaikan identitas diri dan nama lembaga fintech secara jelas kepada peminjam. Penagihan tidak boleh dilakukan dengan nada mengancam. Fintech resmi tidak diperbolehkan melakukan penagihan langsung setelah keterlambatan melewati 90 hari dari tanggal jatuh tempo.",
+    "category": "escalation_scope",
+    "source": "website_extract: afpi.or.id (Tata Cara Penagihan Pinjaman Online), ocbc.id (SMS penagihan resmi vs ancaman)",
+    "version": "1.0",
+    "pii": false,
+    "last_verified_date": "2026-07-18"
+  },
+  {
+    "record_id": "kb_id_005",
+    "title": "Down Payment (DP) and Tenor Explanation",
+    "content": "DP atau uang muka adalah pembayaran awal yang dilakukan sebelum pembiayaan dimulai. Tenor adalah jangka waktu cicilan, biasanya tersedia dalam pilihan 12, 24, atau 36 bulan. Semakin panjang tenor, semakin kecil jumlah angsuran bulanan, namun total bunga yang dibayar bisa lebih besar.",
+    "category": "product",
+    "source": "constructed (standard multifinance DP/tenor terminology)",
+    "version": "1.0",
+    "pii": false,
+    "last_verified_date": "2026-07-18"
+  },
+  {
+    "record_id": "kb_id_006",
+    "title": "Financial Hardship Objection (Colloquial)",
+    "content": "Kami mengerti kalau kondisi keuangan lagi susah, Pak/Bu. Tenang aja, ada beberapa opsi yang bisa kita bahas — bisa perpanjang tenor atau ada keringanan sementara. Mau saya bantu cariin solusi yang paling pas buat situasi Bapak/Ibu sekarang?",
+    "category": "objection_handling",
+    "source": "constructed (colloquial register per halobdg.com's casual SMS pattern for familiar customers)",
+    "version": "1.0",
+    "pii": false,
+    "last_verified_date": "2026-07-18"
+  },
+  {
+    "record_id": "kb_id_007",
+    "title": "Complaint Escalation Process",
+    "content": "Mohon maaf atas ketidaknyamanannya, Bapak/Ibu. Keluhan Anda akan kami catat dan teruskan ke tim terkait untuk ditindaklanjuti. Anda akan menerima nomor referensi pengaduan, dan tim kami akan menghubungi kembali dalam 7 hingga 10 hari kerja.",
+    "category": "escalation_scope",
+    "source": "constructed",
+    "version": "1.0",
+    "pii": false,
+    "last_verified_date": "2026-07-18"
+  },
+  {
+    "record_id": "kb_id_008",
+    "title": "Out of Scope - Other Accounts",
+    "content": "Panggilan ini khusus membahas cicilan yang sedang jatuh tempo. Untuk pertanyaan mengenai akun atau pembiayaan lain, akan saya hubungkan dengan tim customer service umum agar dapat dibantu lebih lanjut.",
+    "category": "escalation_scope",
+    "source": "constructed",
+    "version": "1.0",
+    "pii": false,
+    "last_verified_date": "2026-07-18"
+  },
+  {
+    "record_id": "kb_id_009",
+    "title": "Accepted Payment Methods",
+    "content": "Pembayaran cicilan dapat dilakukan melalui transfer bank, virtual account, e-wallet seperti OVO, GoPay, atau Dana, maupun melalui minimarket rekanan kami. Jika ingin mengatur pembayaran otomatis setiap bulan, kami dapat membantu proses pendaftarannya.",
+    "category": "product_faq",
+    "source": "constructed",
+    "version": "1.0",
+    "pii": false,
+    "last_verified_date": "2026-07-18"
+  },
+  {
+    "record_id": "kb_id_010",
+    "title": "Response to Threatening-Tone Complaint",
+    "content": "Kami mohon maaf apabila komunikasi sebelumnya terasa tidak nyaman. Sesuai aturan OJK, penagihan resmi tidak boleh dilakukan dengan nada mengancam. Kami akan meninjau kembali proses penagihan Anda dan memastikan komunikasi selanjutnya sesuai standar yang berlaku.",
+    "category": "escalation_scope",
+    "source": "website_extract: ocbc.id (perbedaan SMS penagihan resmi vs bernada ancaman)",
+    "version": "1.0",
+    "pii": false,
+    "last_verified_date": "2026-07-18"
+  }
+]

@@ -1,0 +1,170 @@
+[
+  {
+    "question": "Can I defer or postpone this payment?",
+    "expected_record": "kb_loan_003",
+    "retrieved_record": "kb_loan_003",
+    "similarity": 0.6235,
+    "match": true
+  },
+  {
+    "question": "What happens if I miss my payment date?",
+    "expected_record": "kb_loan_001",
+    "retrieved_record": "kb_loan_004",
+    "similarity": 0.5807,
+    "match": false
+  },
+  {
+    "question": "Is there a penalty for late payment?",
+    "expected_record": "kb_loan_001",
+    "retrieved_record": "kb_loan_006",
+    "similarity": 0.7118,
+    "match": false
+  },
+  {
+    "question": "Can I pay in installments instead of the full amount?",
+    "expected_record": "kb_loan_011",
+    "retrieved_record": "kb_loan_011",
+    "similarity": 0.478,
+    "match": true
+  },
+  {
+    "question": "What payment methods are accepted?",
+    "expected_record": "kb_loan_008",
+    "retrieved_record": "kb_loan_008",
+    "similarity": 0.6097,
+    "match": true
+  },
+  {
+    "question": "I lost my job, what are my options?",
+    "expected_record": "kb_loan_009",
+    "retrieved_record": "kb_loan_009",
+    "similarity": 0.2698,
+    "match": true
+  },
+  {
+    "question": "I'm on leave/traveling, can I pay when I'm back?",
+    "expected_record": "kb_loan_010",
+    "retrieved_record": "kb_loan_010",
+    "similarity": 0.3477,
+    "match": true
+  },
+  {
+    "question": "I don't have the money right now, what happens?",
+    "expected_record": "kb_loan_005",
+    "retrieved_record": "kb_loan_003",
+    "similarity": 0.3044,
+    "match": false
+  },
+  {
+    "question": "Why is this payment due already, I thought I had more time?",
+    "expected_record": "kb_loan_004",
+    "retrieved_record": "kb_loan_004",
+    "similarity": 0.542,
+    "match": true
+  },
+  {
+    "question": "Can I negotiate a lower amount?",
+    "expected_record": "kb_loan_006",
+    "retrieved_record": "kb_loan_006",
+    "similarity": 0.2769,
+    "match": true
+  },
+  {
+    "question": "How do I confirm this is really about my loan?",
+    "expected_record": "kb_loan_012",
+    "retrieved_record": "kb_loan_022",
+    "similarity": 0.5393,
+    "match": false
+  },
+  {
+    "question": "Can you tell me my exact outstanding balance?",
+    "expected_record": "kb_loan_013",
+    "retrieved_record": "kb_loan_013",
+    "similarity": 0.4458,
+    "match": true
+  },
+  {
+    "question": "How is the interest calculated on late payments?",
+    "expected_record": "kb_loan_027",
+    "retrieved_record": "kb_loan_001",
+    "similarity": 0.5128,
+    "match": false
+  },
+  {
+    "question": "Will this affect my credit score?",
+    "expected_record": "kb_loan_007",
+    "retrieved_record": "kb_loan_007",
+    "similarity": 0.4249,
+    "match": true
+  },
+  {
+    "question": "Can someone else make the payment on my behalf?",
+    "expected_record": "kb_loan_014",
+    "retrieved_record": "kb_loan_014",
+    "similarity": 0.5757,
+    "match": true
+  },
+  {
+    "question": "I want to speak to a human agent.",
+    "expected_record": "kb_loan_015",
+    "retrieved_record": "kb_loan_015",
+    "similarity": 0.5029,
+    "match": true
+  },
+  {
+    "question": "Can you also help me with my other loan/account?",
+    "expected_record": "kb_loan_016",
+    "retrieved_record": "kb_loan_016",
+    "similarity": 0.4736,
+    "match": true
+  },
+  {
+    "question": "I want to file a complaint about this call.",
+    "expected_record": "kb_loan_017",
+    "retrieved_record": "kb_loan_017",
+    "similarity": 0.499,
+    "match": true
+  },
+  {
+    "question": "What are your business hours for support?",
+    "expected_record": "kb_loan_018",
+    "retrieved_record": "kb_loan_018",
+    "similarity": 0.5993,
+    "match": true
+  },
+  {
+    "question": "I already paid this, why are you calling?",
+    "expected_record": "kb_loan_025",
+    "retrieved_record": "kb_loan_019",
+    "similarity": 0.3959,
+    "match": false
+  },
+  {
+    "question": "How did you get my number?",
+    "expected_record": "kb_loan_026",
+    "retrieved_record": "kb_loan_026",
+    "similarity": 0.4322,
+    "match": true
+  },
+  {
+    "question": "What kind of loan product is this exactly?",
+    "expected_record": "kb_loan_028",
+    "retrieved_record": "kb_loan_028",
+    "similarity": 0.4624,
+    "match": true
+  },
+  {
+    "question": "What's the weather like today?",
+    "expected_record": null,
+    "retrieved_record": "kb_loan_017",
+    "similarity": 0.0886,
+    "match": true
+  },
+  {
+    "question": "Can you recommend a good restaurant?",
+    "expected_record": null,
+    "retrieved_record": "kb_loan_018",
+    "similarity": 0.0787,
+    "match": true
+  }
+]

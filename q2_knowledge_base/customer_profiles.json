@@ -1,0 +1,22 @@
+[
+  {
+    "call_id": "test_call_001",
+    "customer_name": "Rohan Mehta",
+    "registered_mobile": "9876500001",
+    "date_of_birth": "1990-05-14",
+    "loan_account_last4": "7842",
+    "loan_id": "LN2024887842",
+    "outstanding_amount": 18500,
+    "due_date": "2026-07-22"
+  },
+  {
+    "call_id": "test_call_002",
+    "customer_name": "Anita Sharma",
+    "registered_mobile": "9123456780",
+    "date_of_birth": "1985-11-02",
+    "loan_account_last4": "3391",
+    "loan_id": "LN2024113391",
+    "outstanding_amount": 42000,
+    "due_date": "2026-07-25"
+  }
+]

@@ -1,0 +1,21 @@
+# Secrets — never commit
+.env
+*.env
+!.env.example
+
+# Audio artifacts that may contain synthetic-but-realistic customer data — keep only curated recordings/
+*.mp3
+!recordings/**/*.mp3
+
+# Local caches
+__pycache__/
+*.pyc
+.DS_Store
+_agent_speech.mp3
+
+# Chroma local persistence (if any gets created)
+chroma.sqlite3
+*.chroma/
+
+# Test/scratch output not meant for the repo
+nudge_test_results_scratch.json

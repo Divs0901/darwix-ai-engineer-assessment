@@ -1,0 +1,102 @@
+[
+  {
+    "record_id": "kb_ph_001",
+    "title": "Premium Lapse Policy",
+    "content": "Kapag hindi po nabayaran ang premium sa loob ng grace period, puwede mag-lapse ang policy niyo — ibig sabihin, hindi na po kayo covered. Pero don't worry po, may grace period kami na few days after due date para makapag-pay pa kayo without losing coverage. If lapse na po, may reinstatement process na kailangan gawin, usually may medical requirement pa.",
+    "category": "policy",
+    "source": "website_extract: richestph.com (insurance jargon guide, Taglish glossary)",
+    "version": "1.0",
+    "pii": false,
+    "last_verified_date": "2026-07-18"
+  },
+  {
+    "record_id": "kb_ph_002",
+    "title": "Grace Period for Late Premium Payment",
+    "content": "May grace period po kami na 30 days after your due date — so kahit medyo late po kayo mag-bayad, covered pa rin kayo within that period. After 30 days po, puwede na mag-lapse ang policy. Recommend namin na mag-pay agad para hindi na po tayo mag-alala.",
+    "category": "payment_policy",
+    "source": "constructed (standard industry grace period pattern, styled per RichestPH terminology)",
+    "version": "1.0",
+    "pii": false,
+    "last_verified_date": "2026-07-18"
+  },
+  {
+    "record_id": "kb_ph_003",
+    "title": "Beneficiary Update Process",
+    "content": "Kung gusto niyo po i-update ang beneficiary ng policy niyo, kailangan po mag-submit ng beneficiary change form, available sa branch or online portal namin. Usually po one to two weeks bago ma-process, tapos may confirmation kayo via SMS or email once approved na po.",
+    "category": "product_faq",
+    "source": "constructed",
+    "version": "1.0",
+    "pii": false,
+    "last_verified_date": "2026-07-18"
+  },
+  {
+    "record_id": "kb_ph_004",
+    "title": "Bancassurance Bank Referral Cross-sell",
+    "content": "Since po kayo customer namin sa bank partner namin, meron po kaming bancassurance offers na puwede niyo i-explore — halimbawa po, mga savings-linked insurance products. Kung interesado po kayo, puwede ko po kayo i-refer sa isang specialist para ma-discuss pa in detail.",
+    "category": "product",
+    "source": "constructed (bancassurance cross-sell pattern per assessment spec)",
+    "version": "1.0",
+    "pii": false,
+    "last_verified_date": "2026-07-18"
+  },
+  {
+    "record_id": "kb_ph_005",
+    "title": "Rider Add-On Explanation",
+    "content": "Ang rider po ay parang add-on sa base policy niyo — halimbawa, accident rider or critical illness rider, para may extra coverage kayo for specific situations. May additional premium po ito, pero mas mura compared sa separate policy. Puwede niyo po i-add anytime during renewal.",
+    "category": "product_faq",
+    "source": "constructed",
+    "version": "1.0",
+    "pii": false,
+    "last_verified_date": "2026-07-18"
+  },
+  {
+    "record_id": "kb_ph_006",
+    "title": "Financial Hardship Objection Handling",
+    "content": "Naiintindihan po namin kung medyo mahirap muna ngayon ang financial situation niyo. May option po kami na i-reduce ang coverage temporarily para mas mababa ang premium, or puwede rin po i-extend ang grace period sa ilang cases. Gusto niyo po ba na i-connect ko kayo sa aming support team para ma-discuss pa ang options niyo?",
+    "category": "objection_handling",
+    "source": "constructed (politeness pattern per Kaiwa Blog Filipino complaint script guidance — po/opo, softeners)",
+    "version": "1.0",
+    "pii": false,
+    "last_verified_date": "2026-07-18"
+  },
+  {
+    "record_id": "kb_ph_007",
+    "title": "Complaint Filing Process",
+    "content": "Paumanhin po kung hindi maganda ang experience niyo. Puwede po kayo mag-file ng reklamo through our customer service hotline or online portal. Kukunin po namin ang details ng complaint niyo, tapos may reference number kayo for follow-up. Usually po within 7 to 10 business days may response na po kayo.",
+    "category": "escalation_scope",
+    "source": "website_extract: trykaiwa.com (Filipino complaint conversation script — po/opo politeness pattern)",
+    "version": "1.0",
+    "pii": false,
+    "last_verified_date": "2026-07-18"
+  },
+  {
+    "record_id": "kb_ph_008",
+    "title": "Out of Scope - Other Products",
+    "content": "Ito po na call is specifically about sa policy niyo na ito lang po. Kung may questions po kayo about sa ibang products or accounts niyo, i-connect ko po kayo sa general customer service para ma-assist kayo doon.",
+    "category": "escalation_scope",
+    "source": "constructed",
+    "version": "1.0",
+    "pii": false,
+    "last_verified_date": "2026-07-18"
+  },
+  {
+    "record_id": "kb_ph_009",
+    "title": "Accepted Payment Methods",
+    "content": "Puwede niyo po i-pay ang premium via GCash, bank transfer, credit card, or auto-debit arrangement po. Kung gusto niyo po i-set up ang auto-debit para hindi na po kayo mag-alala every month, i-guide ko po kayo sa process.",
+    "category": "product_faq",
+    "source": "constructed",
+    "version": "1.0",
+    "pii": false,
+    "last_verified_date": "2026-07-18"
+  },
+  {
+    "record_id": "kb_ph_010",
+    "title": "Human Agent Escalation Request",
+    "content": "Sige po, i-connect ko na po kayo sa isang human agent para ma-assist kayo better. Mag-follow up po sila within one business day. Salamat po sa patience niyo.",
+    "category": "escalation_scope",
+    "source": "constructed",
+    "version": "1.0",
+    "pii": false,
+    "last_verified_date": "2026-07-18"
+  }
+]
