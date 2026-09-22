@@ -10,7 +10,7 @@ Conversational agent
 ## Repository Structure
 
 ```
-darwix-ai-engineer-assessment/
+Multilingual Bot
 ├── README.md                    (this file)
 ├── .env.example                 (copy to .env, fill in your own keys)
 ├── architecture_diagram.png
